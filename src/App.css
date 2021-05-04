@@ -1,9 +1,13 @@
 body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 50px 60px;
+  font-family: sans-serif;
+  padding: 20px 60px;
 }
 
 a{
   text-decoration: none;
   color: black;
+}
+* {
+  box-sizing: border-box;
+
 }
