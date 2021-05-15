@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fun-shopping/static/css/main.557c1860.chunk.css",
+    "main.js": "/fun-shopping/static/js/main.45f17839.chunk.js",
+    "main.js.map": "/fun-shopping/static/js/main.45f17839.chunk.js.map",
+    "runtime-main.js": "/fun-shopping/static/js/runtime-main.b82813c2.js",
+    "runtime-main.js.map": "/fun-shopping/static/js/runtime-main.b82813c2.js.map",
+    "static/js/2.3a5cfbbd.chunk.js": "/fun-shopping/static/js/2.3a5cfbbd.chunk.js",
+    "static/js/2.3a5cfbbd.chunk.js.map": "/fun-shopping/static/js/2.3a5cfbbd.chunk.js.map",
+    "index.html": "/fun-shopping/index.html",
+    "static/css/main.557c1860.chunk.css.map": "/fun-shopping/static/css/main.557c1860.chunk.css.map",
+    "static/js/2.3a5cfbbd.chunk.js.LICENSE.txt": "/fun-shopping/static/js/2.3a5cfbbd.chunk.js.LICENSE.txt",
+    "static/media/crown.3a4e2b15.svg": "/fun-shopping/static/media/crown.3a4e2b15.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b82813c2.js",
+    "static/js/2.3a5cfbbd.chunk.js",
+    "static/css/main.557c1860.chunk.css",
+    "static/js/main.45f17839.chunk.js"
+  ]
+}
