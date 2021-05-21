@@ -8,6 +8,8 @@ import ShopPage from './pages/shop/shop.component';
 import Header from './component/header/header.component'; 
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import { createStructuredSelector } from 'reselect';
+import { selectCurrentUser } from './redux/user/user.selectors';
 
 
  class App extends React.Component {
@@ -60,8 +62,8 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
   );}
 }
 
-const mapStateToProps = ({ user }) => ({
-  currentUser: user.currentUser
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser
 });
 
 const mapDispatchToProps = dispatch =>({
