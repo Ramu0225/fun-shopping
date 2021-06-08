@@ -5,7 +5,7 @@ const StripeCheckoutButton = ({ price }) => {
     const priceForStripe = price * 100;
     const publishableKey = 'pk_test_51IzGh7LnCGG7fDgfuDtMw4menVPXqGAhhFU2VLBckOoXnE0hpWWhSL8nMesMlpha7lzKWGrAyVtcEPR4UNUoRfBB00P4pGGi7C'
     const onToken = token =>{
-        
+
         alert('Payment Successful ');
     }
 
@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
     return (
         <StripeCheckout
             label='Pay Now'
-            name='Fun Clothing Ltd.'
+            name='Fun Shop Ltd.'
             billingAddress
             shipingAddress
             image='http://svgshare.com/i/CUz.svg'
