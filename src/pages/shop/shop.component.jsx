@@ -4,13 +4,13 @@ import { createStructuredSelector } from 'reselect';
 import { Route } from 'react-router-dom';
 import  CollectionsOverview  from '../../component/collections-overview/collections-overview.component';
 import { selectCollections } from '../../redux/shop/shop.selectors';
-import CategoryPage from '../category/category.component';
+import CollectionPage from '../collection/collection.component';
 
 const ShopPage = ({ match }) =>(
             
     <div className= 'shop-page'>
        <Route exact path = {`${match.path}`} component= {CollectionsOverview }/>
-       <Route path={`${match.path}/:categoryId`} component = {CategoryPage}/>
+       <Route path={`${match.path}/:collectionId`} component = {CollectionPage}/>
     
    </div>
 
